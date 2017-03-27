@@ -4,9 +4,9 @@ var app = angular.module('GeneratorApp', []);
 app.controller('GeneratorController', function () {
     var self = this;
 
-    startingSyllables = ['Kap', 'Del', 'Alph'];
+    startingSyllables = ['Kap', 'Del', 'Alph', 'Hop'];
 
-    endingSyllables = ['pa', 'ta', 'a'];
+    endingSyllables = ['pa', 'ta', 'a', 'per'];
 
     self.generatedNames = [];
 
