@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Name Generator App</title>
+    <script src="angular.min.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+  </head>
+  <body ng-app="GeneratorApp" ng-controller="GeneratorController as vm">
+    <ul>
+        <li ng-repeat="generatedName in vm.generatedNames">
+          {{generatedName}}
+        </li>
+    </ul>
+  </body>
+</html>
